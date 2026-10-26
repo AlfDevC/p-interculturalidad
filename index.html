@@ -1,0 +1,1785 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memorias que nos unen: Familias, migración y diversidad cultural de Nicaragua</title>
+  <meta name="description"
+    content="Proyecto etnográfico e intercultural de la Universidad Nacional de Ingeniería (UNI) sobre memorias familiares, migración y diversidad cultural nicaragüense.">
+
+  <!-- Tipografías de Google Fonts con soporte de respaldo del sistema -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       BARRA DE NAVEGACIÓN PRINCIPAL
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand-wrapper" title="Ir al inicio">
+        <div class="brand-emblem" aria-hidden="true">
+          <span>UNI</span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Memorias que nos unen</span>
+          <span class="brand-uni">Universidad Nacional de Ingeniería</span>
+        </div>
+      </a>
+
+      <!-- Menú de navegación con las 10 secciones requeridas -->
+      <nav id="navMenu" class="nav-menu" aria-label="Navegación principal">
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#memoria-familiar" class="nav-link">Memoria familiar</a>
+        <a href="#migracion" class="nav-link">Migración</a>
+        <a href="#tradiciones" class="nav-link">Tradiciones</a>
+        <a href="#diversidad-cultural" class="nav-link">Diversidad cultural</a>
+        <a href="#patrones" class="nav-link">Patrones</a>
+        <a href="#reflexion" class="nav-link">Reflexión intercultural</a>
+        <a href="#participa" class="nav-link">Participa</a>
+        <a href="#conclusion" class="nav-link">Conclusión</a>
+        <a href="#fuentes" class="nav-link">Fuentes</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Selector de Modo Oscuro / Claro -->
+        <button id="themeToggleBtn" class="theme-toggle-btn" title="Cambiar tema de color"
+          aria-label="Cambiar tema visual">
+          <svg id="themeIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Botón menú hamburguesa móvil -->
+        <button id="navToggleBtn" class="nav-toggle-btn" aria-label="Abrir menú de navegación" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       INICIO (HERO SECTION)
+       ========================================================================== -->
+  <section id="inicio" class="hero-section">
+    <div class="hero-pattern"></div>
+    <div class="container hero-content">
+      <div class="hero-tag">
+        <span class="hero-tag-dot"></span>
+        <span>Universidad Nacional de Ingeniería (UNI)</span>
+      </div>
+
+      <h1 class="hero-title heading-serif">
+        MEMORIAS QUE <span class="hero-title-accent">NOS UNEN</span>
+      </h1>
+      <p class="hero-subtitle">
+        Familias, migración y diversidad cultural de Nicaragua
+      </p>
+
+      <div class="hero-highlight-phrase">
+        Un recorrido por nuestras raíces, nuestra identidad y las historias que conectan a las generaciones.
+      </div>
+
+      <div class="hero-lead-text">
+        <p>
+          Cada familia guarda recuerdos, costumbres, experiencias de trabajo, desplazamientos y formas de comprender el
+          mundo. Cuando escuchamos las historias de nuestros abuelos, bisabuelos, padres y otros familiares, descubrimos
+          que nuestra identidad se construye a través de muchas generaciones.
+        </p>
+
+        <p style="margin-top: 14px; font-weight: 600; color: var(--text-main);">
+          Nuestro propósito es reconocer las semejanzas que nos unen y las diferencias que enriquecen nuestra sociedad.
+          No todas las familias tienen la misma historia, y precisamente esa diversidad nos permite comprender mejor la
+          interculturalidad nicaragüense.
+        </p>
+        <p style="margin-top: 14px; font-size: 1.15rem; color: var(--color-primary-dark); font-weight: 700;">
+          Nuestra idea central: conocer nuestras raíces nos ayuda a valorar las raíces de los demás.
+        </p>
+      </div>
+
+      <div class="hero-cta-group">
+        <a href="#memoria-familiar" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+          Explorar Familias y Genogramas
+        </a>
+        <a href="#migracion" class="btn btn-outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
+            <line x1="8" y1="2" x2="8" y2="18"></line>
+            <line x1="16" y1="6" x2="16" y2="22"></line>
+          </svg>
+          Ver Mapa de Migración y Territorios
+        </a>
+      </div>
+
+      <!-- Métricas destacadas del estudio -->
+      <div class="hero-stats-grid">
+        <div class="hero-stat-card">
+          <div class="stat-icon-wrapper"
+            style="background-color: var(--color-primary-light); color: var(--color-primary);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div>
+            <div class="stat-title">4 Historias</div>
+            <div class="stat-desc">Familias de estudiantes UNI analizadas a profundidad.</div>
+          </div>
+        </div>
+
+        <div class="hero-stat-card">
+          <div class="stat-icon-wrapper"
+            style="background-color: var(--color-caribe-light); color: var(--color-caribe-dark);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+              </path>
+            </svg>
+          </div>
+          <div>
+            <div class="stat-title">11+ Localidades</div>
+            <div class="stat-desc">Pacífico, Norte, Costa Caribe Sur y Canadá.</div>
+          </div>
+        </div>
+
+        <div class="hero-stat-card">
+          <div class="stat-icon-wrapper" style="background-color: var(--color-gold-light); color: var(--color-gold);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+          </div>
+          <div>
+            <div class="stat-title">Pluricultural</div>
+            <div class="stat-desc">Kriol, Miskito, Español, Inglés e identidades diversas.</div>
+          </div>
+        </div>
+
+        <div class="hero-stat-card">
+          <div class="stat-icon-wrapper"
+            style="background-color: var(--color-nature-light); color: var(--color-nature);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div>
+            <div class="stat-title">Rigor Académico</div>
+            <div class="stat-desc">Datos etnográficos verificados y transparentes.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECCIÓN 1: MEMORIA FAMILIAR
+       ========================================================================== */
+  -->
+  <section id="memoria-familiar" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">1. Memoria Familiar</span>
+        <h2 class="section-title heading-serif">Las generaciones que construyeron nuestra historia</h2>
+        <p class="section-subtitle">Identidad, genealogía y oficios a través del tiempo</p>
+        <p class="section-desc">
+          La memoria familiar es el conjunto de recuerdos, experiencias y conocimientos que pasan de una generación a
+          otra. Los nombres, los lugares donde vivieron nuestros antepasados y los oficios que desempeñaron nos permiten
+          reconstruir una parte de la historia social y cultural de Nicaragua. En este proyecto estudiamos cuatro
+          historias familiares:
+        </p>
+      </div>
+
+      <!-- Barra de Filtros de Familias -->
+      <div class="family-filter-bar">
+        <button class="filter-btn active" data-family="todas">Ver todas las familias (4)</button>
+        <button class="filter-btn" data-family="centeno">Familia Centeno Jarquín</button>
+        <button class="filter-btn" data-family="maradiaga">Familia Maradiaga Flores</button>
+        <button class="filter-btn" data-family="martinez">Familia Martínez Meza</button>
+        <button class="filter-btn" data-family="delcastillo">Familia Del Castillo Cajina</button>
+      </div>
+
+      <!-- Cuadrícula de Tarjetas Visuales de las 4 Familias -->
+      <div class="families-grid">
+        <!-- 1. Familia Centeno Jarquín -->
+        <article class="family-card" data-family="centeno">
+          <div class="family-card-accent accent-centeno"></div>
+          <div class="family-card-header">
+            <span class="family-student-tag">Estudiante UNI: Jared Emanuel Centeno Jarquín</span>
+            <h3 class="family-name">Familia Centeno Jarquín</h3>
+          </div>
+          <div class="family-card-body">
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Localidades documentadas:
+              </span>
+              <div class="tags-list">
+                <span class="badge-tag primary">Chinandega</span>
+                <span class="badge-tag">Managua</span>
+                <span class="badge-tag caribe">Canadá (Internacional)</span>
+              </div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M2 12h20"></path>
+                </svg>
+                Idiomas registrados:
+              </span>
+              <div class="info-value">Español e Inglés (en caso internacional).</div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+                Ocupaciones documentadas:
+              </span>
+              <div class="info-value">Agricultura, administración y distintas actividades profesionales.</div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                Autoidentificación registrada:
+              </span>
+              <div class="info-value">Mestiza del Pacífico.</div>
+            </div>
+
+            <div class="family-ethnographic-note">
+              <strong>Vínculo migratorio destacado:</strong> La ficha documenta la experiencia internacional de
+              <em>Sabina Martínez</em>, originaria de Chinandega, quien reside en Canadá y habla español e inglés. Su
+              historia ilustra cómo los lazos familiares cruzan fronteras.
+            </div>
+          </div>
+          <div class="family-card-footer">
+            <span style="font-size: 0.8rem; color: var(--text-light);">Ficha etnográfica UNI</span>
+            <button class="btn-view-genogram" onclick="openGenogramModal('centeno')">
+              <span>Ver ficha detallada</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </article>
+
+        <!-- 2. Familia Maradiaga Flores -->
+        <article class="family-card" data-family="maradiaga">
+          <div class="family-card-accent accent-maradiaga"></div>
+          <div class="family-card-header">
+            <span class="family-student-tag">Estudiante UNI: Hamilton Daniel Maradiaga Flores</span>
+            <h3 class="family-name">Familia Maradiaga Flores</h3>
+          </div>
+          <div class="family-card-body">
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Localidades documentadas:
+              </span>
+              <div class="tags-list">
+                <span class="badge-tag primary">Diriamba (Carazo)</span>
+                <span class="badge-tag caribe">Bluefields (Costa Caribe Sur)</span>
+              </div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M2 12h20"></path>
+                </svg>
+                Idiomas registrados:
+              </span>
+              <div class="info-value">Español, Inglés criollo (Kriol), Miskito e Inglés.</div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+                Ocupaciones documentadas:
+              </span>
+              <div class="info-value">Agricultura, costura artesanal, carpintería, comercio y docencia.</div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                Autoidentificación registrada:
+              </span>
+              <div class="info-value">Creole / Miskita, Mestiza y Afrodescendiente.</div>
+            </div>
+
+            <div class="family-ethnographic-note">
+              <strong>Diversidad lingüística e identidad:</strong> En la generación de su abuelo paterno, <em>Oscar
+                Daniel Maradiaga Salomón</em>, se documenta la identidad Creole/Miskita y el manejo de Kriol, miskito y
+              español, mostrando la confluencia entre el Pacífico y el Caribe.
+            </div>
+          </div>
+          <div class="family-card-footer">
+            <span style="font-size: 0.8rem; color: var(--text-light);">Ficha etnográfica UNI</span>
+            <button class="btn-view-genogram" onclick="openGenogramModal('maradiaga')">
+              <span>Ver ficha detallada</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </article>
+
+        <!-- 3. Familia Martínez Meza -->
+        <article class="family-card" data-family="martinez">
+          <div class="family-card-accent accent-martinez"></div>
+          <div class="family-card-header">
+            <span class="family-student-tag">Estudiante UNI: Alfredo Gilberto Martínez Meza</span>
+            <h3 class="family-name">Familia Martínez Meza</h3>
+          </div>
+          <div class="family-card-body">
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Localidades documentadas:
+              </span>
+              <div class="tags-list">
+                <span class="badge-tag primary">Masachapa</span>
+                <span class="badge-tag">San Rafael del Sur</span>
+              </div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M2 12h20"></path>
+                </svg>
+                Idiomas registrados:
+              </span>
+              <div class="info-value">Español como idioma familiar permanente.</div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+                Ocupaciones documentadas:
+              </span>
+              <div class="info-value">Agricultura, conducción, sastrería, contabilidad, trabajo administrativo y
+                psicología.</div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                Autoidentificación registrada:
+              </span>
+              <div class="info-value">Mestiza.</div>
+            </div>
+
+            <div class="family-ethnographic-note">
+              <strong>Evolución laboral comunitaria:</strong> Refleja cómo una familia del litoral pacífico transita de
+              labores tradicionales como la sastrería y agricultura a áreas contables, técnicas y a la psicología en
+              generaciones recientes.
+            </div>
+          </div>
+          <div class="family-card-footer">
+            <span style="font-size: 0.8rem; color: var(--text-light);">Ficha etnográfica UNI</span>
+            <button class="btn-view-genogram" onclick="openGenogramModal('martinez')">
+              <span>Ver ficha detallada</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </article>
+
+        <!-- 4. Familia Del Castillo Cajina -->
+        <article class="family-card" data-family="delcastillo">
+          <div class="family-card-accent accent-delcastillo"></div>
+          <div class="family-card-header">
+            <span class="family-student-tag">Estudiante UNI: Jeremy Antonio Del Castillo Cajina</span>
+            <h3 class="family-name">Familia Del Castillo Cajina</h3>
+          </div>
+          <div class="family-card-body">
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Localidades documentadas:
+              </span>
+              <div class="tags-list">
+                <span class="badge-tag primary">Managua</span>
+                <span class="badge-tag">León</span>
+                <span class="badge-tag">Chinandega</span>
+                <span class="badge-tag">Granada</span>
+                <span class="badge-tag">Matagalpa</span>
+                <span class="badge-tag">Jinotega</span>
+                <span class="badge-tag">Masaya</span>
+              </div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M2 12h20"></path>
+                </svg>
+                Idiomas registrados:
+              </span>
+              <div class="info-value">Español en todas las generaciones consignadas.</div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+                Ocupaciones documentadas:
+              </span>
+              <div class="info-value">Comercio, agricultura, caficultura, docencia, artesanía, enfermería, ingeniería y
+                estudios universitarios.</div>
+            </div>
+
+            <div class="family-info-item">
+              <span class="info-label">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                Autoidentificación registrada:
+              </span>
+              <div class="info-value">Mestiza.</div>
+            </div>
+
+            <div class="family-ethnographic-note">
+              <strong>Red territorial y productiva amplia:</strong> Conecta múltiples departamentos del Pacífico y de
+              las tierras altas del Norte, articulando actividades como la caficultura norteña, el comercio y la
+              artesanía con la ingeniería.
+            </div>
+          </div>
+          <div class="family-card-footer">
+            <span style="font-size: 0.8rem; color: var(--text-light);">Ficha etnográfica UNI</span>
+            <button class="btn-view-genogram" onclick="openGenogramModal('delcastillo')">
+              <span>Ver ficha detallada</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Esquema Generacional y Explicación Metodológica -->
+      <div class="genogram-explanation-card">
+        <div class="genogram-explanation-grid">
+          <div>
+            <span class="section-badge"
+              style="background: var(--color-gold-light); color: var(--color-gold); border-color: rgba(217, 119, 6, 0.3);">
+              Metodología Etnográfica
+            </span>
+            <h3 style="font-size: 1.6rem; margin-bottom: 14px; color: var(--text-main);">
+              ¿Qué nos enseñan los genogramas?
+            </h3>
+            <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 14px;">
+              Los genogramas etnográficos no son únicamente árboles genealógicos. Además de representar los parentescos,
+              permiten registrar información sobre idiomas, autoidentificación étnica, ocupaciones, lugares de
+              residencia y otros aspectos de la vida familiar.
+            </p>
+            <p style="color: var(--text-muted); line-height: 1.7;">
+              Al comparar las cuatro familias, podemos reconocer que cada historia tiene características propias.
+              También encontramos conexiones entre generaciones, cambios de residencia y distintas formas de
+              participación en la sociedad nicaragüense.
+            </p>
+          </div>
+
+          <!-- Árbol generacional interactivo explicativo -->
+          <div class="generational-tree-visual">
+            <div class="gen-node">
+              <span class="gen-node-dot"></span>
+              <div class="gen-node-title">1. Generación de Bisabuelos / Raíces Históricas</div>
+              <div class="gen-node-desc">Oficios tradicionales (agricultura, costura artesanal), lenguas originarias y
+                vínculos locales fundacionales.</div>
+            </div>
+
+            <div class="gen-node">
+              <span class="gen-node-dot"></span>
+              <div class="gen-node-title">2. Generación de Abuelos / Conexiones Regionales</div>
+              <div class="gen-node-desc">Ejemplo: Abuelo Oscar Daniel Maradiaga Salomón (Kriol/Miskito/Español) y
+                abuelos agricultores y comerciantes.</div>
+            </div>
+
+            <div class="gen-node">
+              <span class="gen-node-dot"></span>
+              <div class="gen-node-title">3. Generación de Padres / Movilidad y Profesionalización</div>
+              <div class="gen-node-desc">Administración, contabilidad, docencia, enfermería, psicología y migración
+                internacional (Sabina Martínez en Canadá).</div>
+            </div>
+
+            <div class="gen-node" style="border-color: var(--color-primary); background: var(--color-primary-light);">
+              <span class="gen-node-dot" style="background: var(--color-primary);"></span>
+              <div class="gen-node-title" style="color: var(--color-primary);">4. Estudiantes Universitarios UNI
+                (Presente)</div>
+              <div class="gen-node-desc" style="color: var(--text-main);">Ingeniería, preservación de la memoria
+                colectiva y reflexión intercultural activa.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Espacios Claramente Identificados para Añadir los Genogramas Originales -->
+      <div style="margin-top: 50px;">
+        <div style="text-align: center; max-width: 760px; margin: 0 auto 32px;">
+          <h3 style="font-size: 1.45rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+            Galería y Repositorio de Genogramas Digitales
+          </h3>
+          <p style="font-size: 0.95rem; color: var(--text-muted);">
+            Espacios destinados a visualizar los genogramas gráficos elaborados por cada estudiante. Puedes cargar el
+            archivo de imagen para previsualizarlo localmente de inmediato en tu navegador.
+          </p>
+        </div>
+
+        <div class="genograms-gallery">
+          <!-- Ranura 1: Centeno Jarquín -->
+          <div class="genogram-slot">
+            <img id="preview-centeno" class="genogram-img-preview active" src="resources/centeno.jpeg"
+              alt="Genograma Centeno Jarquín" style="cursor:pointer" onclick="openGenogramModal('centeno')">
+            <div class="slot-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="slot-title">Genograma Centeno Jarquín</div>
+            <div class="slot-desc">Jared Emanuel Centeno Jarquín<br>Chinandega · Managua · Canadá</div>
+            <div class="slot-actions">
+              <label class="btn-upload-preview">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="17 8 12 3 7 8"></polyline>
+                  <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+                <span>Cargar imagen local</span>
+                <input type="file" accept="image/*" class="genogram-file-input" data-slot="centeno"
+                  style="display:none;">
+              </label>
+              <button class="btn btn-outline" style="padding: 6px 12px; font-size: 0.78rem;"
+                onclick="openGenogramModal('centeno')">Ver ficha completa</button>
+            </div>
+          </div>
+
+          <!-- Ranura 2: Maradiaga Flores -->
+          <div class="genogram-slot">
+            <img id="preview-maradiaga" class="genogram-img-preview active" src="resources/maradiaga.png"
+              alt="Genograma Maradiaga Flores" style="cursor:pointer" onclick="openGenogramModal('maradiaga')">
+            <div class="slot-icon"
+              style="background-color: var(--color-caribe-light); color: var(--color-caribe-dark);">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                </path>
+              </svg>
+            </div>
+            <div class="slot-title">Genograma Maradiaga Flores</div>
+            <div class="slot-desc">Hamilton Daniel Maradiaga Flores<br>Diriamba · Bluefields</div>
+            <div class="slot-actions">
+              <label class="btn-upload-preview">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="17 8 12 3 7 8"></polyline>
+                  <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+                <span>Cargar imagen local</span>
+                <input type="file" accept="image/*" class="genogram-file-input" data-slot="maradiaga"
+                  style="display:none;">
+              </label>
+              <button class="btn btn-outline" style="padding: 6px 12px; font-size: 0.78rem;"
+                onclick="openGenogramModal('maradiaga')">Ver ficha completa</button>
+            </div>
+          </div>
+
+          <!-- Ranura 3: Martínez Meza -->
+          <div class="genogram-slot">
+            <img id="preview-martinez" class="genogram-img-preview active" src="resources/martinez.png"
+              alt="Genograma Martínez Meza" style="cursor:pointer" onclick="openGenogramModal('martinez')">
+            <div class="slot-icon" style="background-color: var(--color-gold-light); color: var(--color-gold);">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+            </div>
+            <div class="slot-title">Genograma Martínez Meza</div>
+            <div class="slot-desc">Alfredo Gilberto Martínez Meza<br>Masachapa · San Rafael del Sur</div>
+            <div class="slot-actions">
+              <label class="btn-upload-preview">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="17 8 12 3 7 8"></polyline>
+                  <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+                <span>Cargar imagen local</span>
+                <input type="file" accept="image/*" class="genogram-file-input" data-slot="martinez"
+                  style="display:none;">
+              </label>
+              <button class="btn btn-outline" style="padding: 6px 12px; font-size: 0.78rem;"
+                onclick="openGenogramModal('martinez')">Ver ficha completa</button>
+            </div>
+          </div>
+
+          <!-- Ranura 4: Del Castillo Cajina -->
+          <div class="genogram-slot">
+            <img id="preview-delcastillo" class="genogram-img-preview active" src="resources/del_castillo.png"
+              alt="Genograma Del Castillo Cajina" style="cursor:pointer" onclick="openGenogramModal('delcastillo')">
+            <div class="slot-icon" style="background-color: var(--color-pacifico-light); color: var(--color-pacifico);">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <div class="slot-title">Genograma Del Castillo Cajina</div>
+            <div class="slot-desc">Jeremy Antonio Del Castillo Cajina<br>Pacífico y Región Norte</div>
+            <div class="slot-actions">
+              <label class="btn-upload-preview">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="17 8 12 3 7 8"></polyline>
+                  <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+                <span>Cargar imagen local</span>
+                <input type="file" accept="image/*" class="genogram-file-input" data-slot="delcastillo"
+                  style="display:none;">
+              </label>
+              <button class="btn btn-outline" style="padding: 6px 12px; font-size: 0.78rem;"
+                onclick="openGenogramModal('delcastillo')">Ver ficha completa</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Advertencia Ética y Metodológica Obligatoria -->
+      <div class="methodology-warning-box">
+        <svg class="warning-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+          <line x1="12" y1="9" x2="12" y2="13"></line>
+          <line x1="12" y1="17" x2="12.01" y2="17"></line>
+        </svg>
+        <div class="warning-content">
+          <strong>Nota sobre los datos:</strong> Las fichas contienen información incompleta en algunos campos. Los
+          datos que no aparecen documentados deben verificarse con las familias y no deben sustituirse por suposiciones.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECCIÓN 2: MIGRACIÓN
+       ========================================================================== -->
+  <section id="migracion" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">2. Migración</span>
+        <h2 class="section-title heading-serif">Cuando las familias cruzan fronteras y conectan territorios</h2>
+        <p class="section-subtitle">Movilidad espacial, permanencia y vínculos interregionales</p>
+        <p class="section-desc">
+          La migración es el desplazamiento de personas de un lugar a otro para establecerse temporal o permanentemente.
+          Puede ocurrir entre comunidades, municipios, departamentos, regiones o países. Los movimientos de una familia
+          pueden modificar sus oportunidades de estudio y trabajo, sus relaciones cotidianas y sus formas de mantener
+          los vínculos con sus lugares de origen.
+        </p>
+      </div>
+
+      <!-- Tablero del Mapa Interactivo (Representa ÚNICAMENTE las localidades documentadas) -->
+      <div class="migration-dashboard">
+        <div class="map-controls-bar">
+          <div>
+            <h3 style="font-size: 1.25rem; font-weight: 700;">Cartografía Etnográfica de las Cuatro Familias</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              Representación interactiva de las 11 localidades nicaragüenses y el destino internacional documentados.
+            </p>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+            <label for="familyMapSelect" style="font-size: 0.85rem; font-weight: 600;">Filtrar por familia:</label>
+            <select id="familyMapSelect" class="form-control"
+              style="width: auto; padding: 6px 12px; font-size: 0.85rem;">
+              <option value="todas">Todas las familias</option>
+              <option value="Centeno">Familia Centeno Jarquín</option>
+              <option value="Maradiaga">Familia Maradiaga Flores</option>
+              <option value="Martínez">Familia Martínez Meza</option>
+              <option value="Del Castillo">Familia Del Castillo Cajina</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="map-legend" style="margin-bottom: 20px;">
+          <div class="legend-item"><span class="legend-color-dot legend-pacifico"></span> Pacífico Occidental / Central
+          </div>
+          <div class="legend-item"><span class="legend-color-dot legend-caribe"></span> Costa Caribe Sur (RAAS)</div>
+          <div class="legend-item"><span class="legend-color-dot legend-norte"></span> Tierras Altas del Norte</div>
+          <div class="legend-item"><span class="legend-color-dot legend-internacional"></span> Migración Internacional
+            (Canadá)</div>
+        </div>
+
+        <div class="map-layout-grid">
+          <!-- Mapa SVG de Nicaragua -->
+          <div class="nicaragua-map-container">
+            <svg class="nicaragua-svg" viewBox="0 0 920 600" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <filter id="mapShadow" x="-10%" y="-10%" width="125%" height="125%">
+                  <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.12" />
+                </filter>
+                <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#bae6fd" stop-opacity="0.6" />
+                  <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0.8" />
+                </linearGradient>
+                <linearGradient id="landGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#f5efe6" />
+                  <stop offset="100%" stop-color="#e9dfcf" />
+                </linearGradient>
+              </defs>
+
+              <!-- Silueta Geográfica Representativa de Nicaragua -->
+              <path class="map-landmass" d="M 120 230
+                       C 140 210, 190 190, 240 170
+                       C 290 150, 340 130, 420 120
+                       C 480 115, 540 130, 590 145
+                       C 630 160, 680 185, 730 210
+                       C 780 235, 820 280, 840 330
+                       C 850 370, 830 420, 800 480
+                       C 780 520, 740 550, 680 555
+                       C 620 560, 540 550, 470 540
+                       C 420 530, 380 520, 340 480
+                       C 300 440, 260 410, 220 370
+                       C 180 330, 140 290, 115 250 Z" fill="url(#landGrad)" stroke="#c5b9a8" stroke-width="2.2"
+                filter="url(#mapShadow)" />
+
+              <!-- Lago Xolotlán (Lago de Managua) -->
+              <ellipse cx="305" cy="330" rx="42" ry="24" fill="url(#waterGrad)" stroke="#7dd3fc" stroke-width="1.5" />
+              <text x="290" y="333" font-size="9" fill="#0369a1" font-weight="600">L. Xolotlán</text>
+
+              <!-- Lago Cocibolca (Gran Lago de Nicaragua) -->
+              <ellipse cx="440" cy="440" rx="90" ry="46" fill="url(#waterGrad)" stroke="#7dd3fc" stroke-width="1.5" />
+              <text x="405" y="445" font-size="11" fill="#0369a1" font-weight="700">Gran Lago Cocibolca</text>
+              <!-- Isla de Ometepe -->
+              <ellipse cx="455" cy="450" rx="14" ry="9" fill="#e9dfcf" stroke="#c5b9a8" />
+
+              <!-- Línea de Conexión Migratoria Chinandega -> Canadá -->
+              <path d="M 185 255 Q 380 70 700 85" fill="none" stroke="#8b5cf6" stroke-width="2.5"
+                stroke-dasharray="6,4" />
+
+              <!-- Recuadro Inset Especial para Canadá -->
+              <g class="map-pin" data-location="canada" id="pin-canada">
+                <rect x="680" y="50" width="200" height="74" rx="10" fill="#ffffff" stroke="#8b5cf6" stroke-width="2"
+                  filter="url(#mapShadow)" />
+                <text x="696" y="74" font-size="13" font-weight="800" fill="#6d28d9">MIGRACIÓN INTERNACIONAL</text>
+                <text x="696" y="93" font-size="12" font-weight="700" fill="#1e293b">Canadá (Sabina Martínez)</text>
+                <text x="696" y="110" font-size="10" fill="#64748b">Origen: Chinandega · Inglés y Español</text>
+                <circle cx="855" cy="87" r="9" fill="#8b5cf6" />
+                <text x="852" y="91" font-size="11" fill="#fff" font-weight="800">✈</text>
+              </g>
+
+              <!-- PINES DE LAS 11 LOCALIDADES DOCUMENTADAS -->
+
+              <!-- 1. Chinandega -->
+              <g class="map-pin" data-location="chinandega" id="pin-chinandega" transform="translate(185, 255)">
+                <circle class="pin-pulse" r="14" fill="#b44a28" opacity="0.3" />
+                <circle r="8" fill="#b44a28" stroke="#ffffff" stroke-width="2" />
+                <text x="12" y="4" font-size="12" font-weight="700" fill="#1e293b">Chinandega</text>
+              </g>
+
+              <!-- 2. León -->
+              <g class="map-pin" data-location="leon" id="pin-leon" transform="translate(230, 305)">
+                <circle class="pin-pulse" r="14" fill="#b44a28" opacity="0.3" />
+                <circle r="7.5" fill="#b44a28" stroke="#ffffff" stroke-width="2" />
+                <text x="12" y="4" font-size="11" font-weight="700" fill="#1e293b">León</text>
+              </g>
+
+              <!-- 3. Managua (UNI) -->
+              <g class="map-pin active" data-location="managua" id="pin-managua" transform="translate(295, 360)">
+                <circle class="pin-pulse" r="16" fill="#004b93" opacity="0.35" />
+                <circle r="9" fill="#004b93" stroke="#ffffff" stroke-width="2.5" />
+                <text x="14" y="4" font-size="13" font-weight="800" fill="#004b93">Managua (UNI)</text>
+              </g>
+
+              <!-- 4. San Rafael del Sur -->
+              <g class="map-pin" data-location="sanrafael" id="pin-sanrafael" transform="translate(265, 395)">
+                <circle class="pin-pulse" r="13" fill="#d97706" opacity="0.3" />
+                <circle r="7" fill="#d97706" stroke="#ffffff" stroke-width="2" />
+                <text x="-120" y="3" font-size="10.5" font-weight="600" fill="#1e293b">San Rafael del Sur</text>
+              </g>
+
+              <!-- 5. Masachapa -->
+              <g class="map-pin" data-location="masachapa" id="pin-masachapa" transform="translate(245, 420)">
+                <circle class="pin-pulse" r="13" fill="#d97706" opacity="0.3" />
+                <circle r="7" fill="#d97706" stroke="#ffffff" stroke-width="2" />
+                <text x="-76" y="14" font-size="10.5" font-weight="600" fill="#1e293b">Masachapa</text>
+              </g>
+
+              <!-- 6. Diriamba -->
+              <g class="map-pin" data-location="diriamba" id="pin-diriamba" transform="translate(298, 415)">
+                <circle class="pin-pulse" r="14" fill="#0284c7" opacity="0.3" />
+                <circle r="7.5" fill="#0284c7" stroke="#ffffff" stroke-width="2" />
+                <text x="12" y="4" font-size="11" font-weight="700" fill="#0369a1">Diriamba</text>
+              </g>
+
+              <!-- 7. Masaya -->
+              <g class="map-pin" data-location="masaya" id="pin-masaya" transform="translate(340, 380)">
+                <circle class="pin-pulse" r="13" fill="#b44a28" opacity="0.3" />
+                <circle r="7" fill="#b44a28" stroke="#ffffff" stroke-width="2" />
+                <text x="12" y="4" font-size="11" font-weight="600" fill="#1e293b">Masaya</text>
+              </g>
+
+              <!-- 8. Granada -->
+              <g class="map-pin" data-location="granada" id="pin-granada" transform="translate(365, 410)">
+                <circle class="pin-pulse" r="13" fill="#b44a28" opacity="0.3" />
+                <circle r="7" fill="#b44a28" stroke="#ffffff" stroke-width="2" />
+                <text x="12" y="4" font-size="11" font-weight="600" fill="#1e293b">Granada</text>
+              </g>
+
+              <!-- 9. Matagalpa -->
+              <g class="map-pin" data-location="matagalpa" id="pin-matagalpa" transform="translate(370, 245)">
+                <circle class="pin-pulse" r="14" fill="#047857" opacity="0.3" />
+                <circle r="8" fill="#047857" stroke="#ffffff" stroke-width="2" />
+                <text x="12" y="4" font-size="11.5" font-weight="700" fill="#065f46">Matagalpa</text>
+              </g>
+
+              <!-- 10. Jinotega -->
+              <g class="map-pin" data-location="jinotega" id="pin-jinotega" transform="translate(365, 195)">
+                <circle class="pin-pulse" r="14" fill="#047857" opacity="0.3" />
+                <circle r="8" fill="#047857" stroke="#ffffff" stroke-width="2" />
+                <text x="12" y="4" font-size="11.5" font-weight="700" fill="#065f46">Jinotega</text>
+              </g>
+
+              <!-- 11. Bluefields -->
+              <g class="map-pin" data-location="bluefields" id="pin-bluefields" transform="translate(710, 420)">
+                <circle class="pin-pulse" r="17" fill="#0284c7" opacity="0.4" />
+                <circle r="9" fill="#0284c7" stroke="#ffffff" stroke-width="2.5" />
+                <text x="-70" y="-12" font-size="13" font-weight="800" fill="#0369a1">Bluefields (RAAS)</text>
+              </g>
+            </svg>
+          </div>
+
+          <!-- Panel de Detalle de la Localidad Seleccionada -->
+          <div class="location-info-panel">
+            <div class="location-panel-header">
+              <div>
+                <span id="locPanelZone" class="location-badge-zone">Pacífico Central</span>
+                <h4 id="locPanelName" class="location-name">Managua</h4>
+              </div>
+              <div style="font-size: 1.8rem;">📍</div>
+            </div>
+
+            <div class="location-family-link">
+              <strong>Familias vinculadas:</strong> <span id="locPanelFamilies">Familia Centeno Jarquín · Familia Del
+                Castillo Cajina</span>
+            </div>
+
+            <div class="location-details-list">
+              <p id="locPanelDesc">
+                Ciudad capital vinculada a las trayectorias de residencia, estudios universitarios en la UNI y
+                actividades de administración y comercio en las historias familiares.
+              </p>
+              <div
+                style="background: var(--bg-surface); padding: 12px 14px; border-radius: var(--radius-sm); border-left: 3px solid var(--color-primary);">
+                <strong>Tipo de registro etnográfico:</strong>
+                <span id="locPanelStatus">Residencia y actividad documentada.</span>
+              </div>
+            </div>
+
+            <!-- Accesos rápidos para explorar localidades -->
+            <div>
+              <span
+                style="font-size: 0.78rem; font-weight: 700; text-transform: uppercase; color: var(--text-light); display: block; margin-bottom: 8px;">
+                Selección rápida de localidades:
+              </span>
+              <div class="location-quick-list">
+                <button class="loc-btn" data-loc="chinandega">Chinandega</button>
+                <button class="loc-btn" data-loc="leon">León</button>
+                <button class="loc-btn active" data-loc="managua">Managua</button>
+                <button class="loc-btn" data-loc="sanrafael">San Rafael del Sur</button>
+                <button class="loc-btn" data-loc="masachapa">Masachapa</button>
+                <button class="loc-btn" data-loc="diriamba">Diriamba</button>
+                <button class="loc-btn" data-loc="masaya">Masaya</button>
+                <button class="loc-btn" data-loc="granada">Granada</button>
+                <button class="loc-btn" data-loc="matagalpa">Matagalpa</button>
+                <button class="loc-btn" data-loc="jinotega">Jinotega</button>
+                <button class="loc-btn" data-loc="bluefields">Bluefields</button>
+                <button class="loc-btn" data-loc="canada">Canadá</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Precisión Metodológica sobre Lugares de Origen vs Migración -->
+      <div class="methodology-warning-box" style="margin-bottom: 32px;">
+        <svg class="warning-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        <div class="warning-content">
+          <strong>Aclaración académica sobre los datos territoriales:</strong> Estas referencias no representan
+          necesariamente migraciones en todos los casos: algunas corresponden a lugares de residencia o de origen
+          consignados en las fichas. Para identificar cada desplazamiento con precisión, es necesario confirmar el lugar
+          de nacimiento, el lugar de residencia anterior, el destino y, cuando se conozca, el motivo del cambio.
+        </div>
+      </div>
+
+      <!-- Tarjeta destacada: Migrar también significa mantener vínculos -->
+      <div class="international-migration-card">
+        <div class="international-flag-icon" aria-hidden="true">🇨🇦</div>
+        <div>
+          <h3 style="font-size: 1.35rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+            Migrar también significa mantener vínculos
+          </h3>
+          <p style="font-size: 0.96rem; color: var(--text-muted); line-height: 1.68;">
+            Cuando un integrante de la familia vive lejos, los lazos familiares pueden mantenerse mediante visitas,
+            comunicación, recuerdos, relatos y otras formas de contacto. Sin embargo, las experiencias son diferentes
+            para cada persona y deben documentarse mediante testimonios reales. En el caso de <strong>Sabina
+              Martínez</strong>, la ficha registra residencia en <strong>Canadá</strong> y origen en
+            <strong>Chinandega</strong>, además del uso del <strong>español y el inglés</strong>. Este dato permite
+            reconocer una conexión entre Nicaragua y otro país, sin asumir motivos de migración que no estén
+            documentados.
+          </p>
+        </div>
+      </div>
+
+      <!-- Pregunta para Reflexionar -->
+      <div class="reflection-prompt-box">
+        <div class="reflection-question">
+          Pregunta para reflexionar: ¿Cómo cambia la historia de una familia cuando sus integrantes viven en diferentes
+          comunidades o países?
+        </div>
+        <p class="reflection-answer">
+          La respuesta puede ayudarnos a comprender que la identidad familiar no depende únicamente del lugar donde
+          vivimos, sino también de los vínculos, las experiencias y los recuerdos que conservamos.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECCIÓN 3: TRADICIONES
+       ========================================================================== -->
+  <section id="tradiciones" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">3. Tradiciones</span>
+        <h2 class="section-title heading-serif">Lo que recibimos y lo que transmitimos</h2>
+        <p class="section-subtitle">Patrimonio vivo, memorias cotidianas y saberes compartidos</p>
+        <p class="section-desc">
+          Las tradiciones son prácticas, conocimientos, celebraciones, relatos y formas de convivencia que las personas
+          aprenden y transmiten dentro de sus familias y comunidades. Pueden incluir la preparación de alimentos, las
+          celebraciones familiares, la música, las expresiones lingüísticas, las actividades religiosas, los oficios
+          tradicionales, las historias orales y las formas de colaboración comunitaria.
+        </p>
+      </div>
+
+      <!-- Rigor Metodológico: No atribuir datos no evidenciados -->
+      <div class="methodology-warning-box" style="margin-bottom: 40px;">
+        <svg class="warning-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"></polygon>
+          <line x1="12" y1="8" x2="12" y2="12"></line>
+          <line x1="12" y1="16" x2="12.01" y2="16"></line>
+        </svg>
+        <div class="warning-content">
+          <strong>Rigor sobre la documentación de tradiciones:</strong> En las fichas etnográficas utilizadas para este
+          proyecto no se describen de manera suficiente las tradiciones específicas de las cuatro familias. Por esta
+          razón, <em>no atribuimos celebraciones, comidas o costumbres particulares a una familia sin contar con
+            evidencia</em>. Esta sección propone reconocer y documentar esas prácticas a partir de la memoria de los
+          propios integrantes.
+        </div>
+      </div>
+
+      <!-- Guía de Indagación Familiar -->
+      <h3
+        style="font-size: 1.45rem; font-weight: 700; color: var(--text-main); margin-bottom: 20px; text-align: center;">
+        ¿Qué podemos investigar en nuestras familias?
+      </h3>
+
+      <div class="traditions-guidelines-grid">
+        <div class="guideline-card">
+          <div class="guideline-number">1</div>
+          <div class="guideline-text">¿Qué celebraciones se realizan y cómo han cambiado con el tiempo?</div>
+        </div>
+
+        <div class="guideline-card">
+          <div class="guideline-number">2</div>
+          <div class="guideline-text">¿Qué comidas se preparan en ocasiones especiales?</div>
+        </div>
+
+        <div class="guideline-card">
+          <div class="guideline-number">3</div>
+          <div class="guideline-text">¿Qué historias cuentan los abuelos y otros familiares?</div>
+        </div>
+
+        <div class="guideline-card">
+          <div class="guideline-number">4</div>
+          <div class="guideline-text">¿Qué palabras, expresiones o idiomas se utilizan en el hogar?</div>
+        </div>
+
+        <div class="guideline-card">
+          <div class="guideline-number">5</div>
+          <div class="guideline-text">¿Qué oficios, habilidades o conocimientos se han transmitido entre generaciones?
+          </div>
+        </div>
+
+        <div class="guideline-card">
+          <div class="guideline-number">6</div>
+          <div class="guideline-text">¿Qué costumbres se mantienen y cuáles han cambiado?</div>
+        </div>
+      </div>
+
+      <!-- Evolución de las Tradiciones -->
+      <div
+        style="background: var(--bg-surface-alt); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 36px; margin-bottom: 40px;">
+        <h4 style="font-size: 1.3rem; font-weight: 700; color: var(--color-primary-dark); margin-bottom: 12px;">
+          Las tradiciones también evolucionan
+        </h4>
+        <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.75; margin-bottom: 14px;">
+          La cultura no permanece inmóvil. Las nuevas generaciones pueden conservar ciertas prácticas, adaptar otras o
+          incorporar nuevas formas de expresión. Los cambios no significan necesariamente la desaparición de la
+          identidad familiar; pueden formar parte de su evolución.
+        </p>
+        <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.75;">
+          Documentar las tradiciones con respeto permite reconocer la voz de las familias y comprender cómo las
+          experiencias personales contribuyen a la diversidad cultural de Nicaragua.
+        </p>
+      </div>
+
+      <!-- Banner de Invitación a la Acción -->
+      <div class="invitation-banner">
+        <div class="invitation-content">
+          <div class="invitation-title">Invitación al diálogo intergeneracional</div>
+          <div class="invitation-desc">
+            Conversa con una persona de tu familia y registra una tradición real, quién te la contó y qué significado
+            tiene para ustedes. Puedes plasmarla en la sección interactiva del sitio.
+          </div>
+        </div>
+        <a href="#participa" class="btn btn-white">Ir al formulario de memoria</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECCIÓN 4: DIVERSIDAD CULTURAL
+       ========================================================================== -->
+  <section id="diversidad-cultural" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">4. Diversidad Cultural</span>
+        <h2 class="section-title heading-serif">Nicaragua: múltiples identidades, historias y lenguas</h2>
+        <p class="section-subtitle">Pluriculturalidad, coexistencia y reconocimiento mutuo</p>
+        <p class="section-desc">
+          La diversidad cultural se manifiesta en las diferentes identidades, lenguas, conocimientos, prácticas y
+          experiencias que conviven dentro de una sociedad. Nicaragua no puede comprenderse a partir de una sola
+          historia familiar ni de una única forma de identidad. Sus comunidades y familias presentan trayectorias
+          distintas, y el reconocimiento de esas diferencias es fundamental para construir relaciones respetuosas. En
+          las fichas analizadas encontramos ejemplos concretos de esa diversidad:
+        </p>
+      </div>
+
+      <!-- Tres Pilares Fundamentales de la Diversidad en el Estudio -->
+      <div class="diversity-pillars-grid">
+        <!-- Pilar 1: Diversidad lingüística -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box"
+            style="background-color: var(--color-caribe-light); color: var(--color-caribe-dark);">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+          </div>
+          <h3 class="pillar-title">Diversidad lingüística</h3>
+          <p class="pillar-desc">
+            El <strong>español</strong> aparece registrado en las cuatro historias familiares. Sin embargo, la ficha de
+            Hamilton Maradiaga documenta también el <strong>inglés criollo (Kriol)</strong> y el
+            <strong>miskito</strong> en la generación de su abuelo paterno. Además, se registran familiares que hablan
+            inglés y español. En la historia de Jared Centeno también aparece una familiar residente en Canadá que habla
+            español e inglés.
+          </p>
+          <div class="pillar-highlight-badge">
+            Estos datos muestran que la experiencia lingüística no es idéntica para todos los integrantes ni para todas
+            las generaciones.
+          </div>
+        </div>
+
+        <!-- Pilar 2: Identidades y autoidentificación -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box"
+            style="background-color: var(--color-primary-light); color: var(--color-primary);">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+          </div>
+          <h3 class="pillar-title">Identidades y autoidentificación</h3>
+          <p class="pillar-desc">
+            Las fichas registran diferentes formas de autoidentificación: en la familia Martínez Meza predomina la
+            identificación como <strong>mestiza o mestizo</strong>; en la historia de Jared Centeno aparecen referencias
+            a la identidad <strong>mestiza del Pacífico</strong>; y en la ficha de Hamilton Maradiaga se registra la
+            identidad <strong>Creole/Miskita</strong> de su abuelo paterno, además de otras identificaciones mestizas y
+            afrodescendientes en distintas generaciones.
+          </p>
+          <div class="pillar-highlight-badge">
+            Deben interpretarse respetando la manera en que cada persona se describe; no deben asignarse automáticamente
+            etiquetas a familias completas.
+          </div>
+        </div>
+
+        <!-- Pilar 3: Diversidad territorial y ocupacional -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box" style="background-color: var(--color-nature-light); color: var(--color-nature);">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+          </div>
+          <h3 class="pillar-title">Diversidad territorial y ocupacional</h3>
+          <p class="pillar-desc">
+            Las familias presentan vínculos con localidades como <strong>Diriamba, Bluefields, Masachapa, San Rafael del
+              Sur, Chinandega, Managua, León, Granada, Matagalpa, Jinotega y Masaya</strong>. También se registran
+            ocupaciones diversas: agricultura, caficultura, comercio, docencia, costura, carpintería, sastrería,
+            contabilidad, salud, ingeniería y otras actividades profesionales.
+          </p>
+          <div class="pillar-highlight-badge">
+            La diversidad no se limita al origen geográfico: se expresa en el trabajo, los conocimientos y las
+            trayectorias familiares.
+          </div>
+        </div>
+      </div>
+
+      <!-- Manifiesto de Convivencia Pluricultural -->
+      <div class="pluricultural-manifesto">
+        <h3 class="manifesto-title heading-serif">
+          ¿Qué significa convivir en una sociedad pluricultural?
+        </h3>
+        <p class="manifesto-text">
+          Significa reconocer que diferentes identidades y tradiciones forman parte de la sociedad, sin considerar que
+          una cultura es superior a otra. La convivencia intercultural requiere respeto, diálogo, escucha y disposición
+          para aprender de las experiencias de los demás.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECCIÓN 5: PATRONES COMUNES Y DIFERENCIAS
+       ========================================================================== -->
+  <section id="patrones" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">5. Patrones y Diferencias</span>
+        <h2 class="section-title heading-serif">Comparar para comprender, no para generalizar</h2>
+        <p class="section-subtitle">Análisis comparativo de las cuatro fichas etnográficas</p>
+        <p class="section-desc">
+          La comparación de las cuatro fichas nos permite identificar tendencias y diferencias. Estos hallazgos
+          corresponden al grupo de familias estudiado; no representan por sí solos a toda la población de Nicaragua.
+        </p>
+      </div>
+
+      <!-- Cuadrícula Comparativa: Patrones vs Diferencias -->
+      <div class="patterns-comparison-grid">
+        <!-- Columna 1: Patrones Comunes -->
+        <div class="pattern-col-card">
+          <div class="pattern-col-header">
+            <div
+              style="width: 36px; height: 36px; border-radius: 8px; background: var(--color-primary-light); color: var(--color-primary); display: flex; align-items: center; justify-content: center;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="pattern-col-title" style="color: var(--color-primary);">Patrones comunes que podemos investigar
+            </h3>
+          </div>
+
+          <div class="pattern-item">
+            <div class="pattern-item-title">1. Presencia del español</div>
+            <div class="pattern-item-desc">
+              El español aparece en los registros lingüísticos de las cuatro historias familiares. Esto constituye una
+              coincidencia dentro de la documentación analizada, aunque no significa que todos los familiares hablen
+              únicamente ese idioma.
+            </div>
+          </div>
+
+          <div class="pattern-item">
+            <div class="pattern-item-title">2. Vínculos con distintas localidades nicaragüenses</div>
+            <div class="pattern-item-desc">
+              Las cuatro fichas incluyen referencias a lugares de Nicaragua. Las historias conectan comunidades y
+              ciudades, aunque la información disponible no permite afirmar que todos esos vínculos correspondan a
+              migraciones confirmadas.
+            </div>
+          </div>
+
+          <div class="pattern-item">
+            <div class="pattern-item-title">3. Diversidad de ocupaciones</div>
+            <div class="pattern-item-desc">
+              Las fichas documentan actividades laborales y profesionales diferentes entre generaciones. Entre ellas se
+              encuentran labores agrícolas, comerciales, artesanales, educativas y profesionales.
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna 2: Diferencias Documentadas -->
+        <div class="pattern-col-card">
+          <div class="pattern-col-header">
+            <div
+              style="width: 36px; height: 36px; border-radius: 8px; background: var(--color-caribe-light); color: var(--color-caribe-dark); display: flex; align-items: center; justify-content: center;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
+              </svg>
+            </div>
+            <h3 class="pattern-col-title" style="color: var(--color-caribe-dark);">Diferencias documentadas</h3>
+          </div>
+
+          <div class="pattern-item">
+            <div class="pattern-item-title" style="color: var(--color-caribe-dark);">1. Experiencias lingüísticas</div>
+            <div class="pattern-item-desc">
+              La historia de Hamilton Maradiaga registra Kriol y miskito en una generación familiar, además del español.
+              La ficha de Jared Centeno registra el uso del inglés y el español en el caso de una familiar residente en
+              Canadá.
+            </div>
+          </div>
+
+          <div class="pattern-item">
+            <div class="pattern-item-title" style="color: var(--color-caribe-dark);">2. Trayectorias territoriales</div>
+            <div class="pattern-item-desc">
+              Las historias presentan redes geográficas distintas: Martínez Meza en Masachapa y San Rafael del Sur;
+              Maradiaga Flores en Diriamba y Bluefields; Centeno Jarquín en Chinandega, Managua y Canadá; y Del Castillo
+              Cajina en diversas localidades del Pacífico y norte de Nicaragua.
+            </div>
+          </div>
+
+          <div class="pattern-item">
+            <div class="pattern-item-title" style="color: var(--color-caribe-dark);">3. Autoidentificación cultural
+            </div>
+            <div class="pattern-item-desc">
+              Las fichas contienen diferentes identificaciones: mestizas, mestizas del Pacífico, Creole/Miskita y
+              afrodescendiente en determinados integrantes. Se analizan de forma individual y no como etiquetas
+              colectivas uniformes.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECCIÓN 6: REFLEXIÓN INTERCULTURAL
+       ========================================================================== -->
+  <section id="reflexion" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">6. Reflexión Intercultural</span>
+        <h2 class="section-title heading-serif">Lo que aprendimos al conocer nuestras raíces</h2>
+        <p class="section-subtitle">Preguntas formativas y aprendizajes de la experiencia compartida</p>
+        <p class="section-desc">
+          El análisis etnográfico trasciende los datos: nos brinda una perspectiva crítica y humana sobre la
+          interculturalidad y la convivencia ciudadana.
+        </p>
+      </div>
+
+      <div class="reflection-grid">
+        <!-- Pregunta 1 -->
+        <article class="reflection-card">
+          <div class="reflection-card-number">01</div>
+          <h3 class="reflection-card-q">
+            ¿Qué revelan los patrones comunes sobre la diversidad cultural nicaragüense?
+          </h3>
+          <p class="reflection-card-a">
+            Las coincidencias encontradas muestran que familias con historias diferentes pueden compartir elementos,
+            como el uso del español, sus vínculos con localidades nicaragüenses y la diversidad de actividades laborales
+            entre generaciones. Estas semejanzas ayudan a identificar puntos de encuentro, pero no eliminan las
+            diferencias. Una característica compartida no significa que todas las familias tengan las mismas costumbres
+            o experiencias.
+          </p>
+        </article>
+
+        <!-- Pregunta 2 -->
+        <article class="reflection-card">
+          <div class="reflection-card-number">02</div>
+          <h3 class="reflection-card-q">
+            ¿Qué diferencias demuestran que Nicaragua es un país pluricultural?
+          </h3>
+          <p class="reflection-card-a">
+            Las diferencias lingüísticas, las autoidentificaciones culturales y las trayectorias territoriales reflejan
+            que las experiencias familiares no son uniformes. La presencia documentada de Kriol y miskito en una de las
+            historias, así como las conexiones geográficas con otras regiones y países, permite reconocer distintas
+            formas de pertenencia y experiencia cultural. Estas diferencias deben valorarse con respeto, evitando
+            estereotipos y generalizaciones.
+          </p>
+        </article>
+
+        <!-- Pregunta 3 -->
+        <article class="reflection-card">
+          <div class="reflection-card-number">03</div>
+          <h3 class="reflection-card-q">
+            ¿Cómo se refleja la interculturalidad en la historia de nuestras familias?
+          </h3>
+          <p class="reflection-card-a">
+            La interculturalidad puede observarse al reconocer cómo se relacionan personas con distintas experiencias
+            lingüísticas, territoriales y culturales. Los vínculos familiares entre localidades, los cambios de
+            residencia y la presencia de diferentes idiomas muestran oportunidades para aprender de otras experiencias.
+            No basta con identificar diferencias: es necesario escuchar a las personas, reconocer sus propias
+            identidades y promover una convivencia basada en el respeto y la igualdad.
+          </p>
+        </article>
+
+        <!-- Pregunta 4 -->
+        <article class="reflection-card">
+          <div class="reflection-card-number">04</div>
+          <h3 class="reflection-card-q">
+            ¿Qué aprendimos sobre nuestros compañeros?
+          </h3>
+          <p class="reflection-card-a">
+            Al comparar las fichas, podemos descubrir aspectos de las historias familiares de nuestros compañeros que no
+            conocíamos: sus raíces geográficas, los oficios de sus antepasados, las lenguas presentes en su familia y
+            las experiencias de residencia dentro y fuera de Nicaragua. Esta actividad nos invita a escuchar sin juzgar,
+            a reconocer que cada familia tiene una historia propia y a comprender que nuestras diferencias pueden
+            enriquecer el aprendizaje colectivo.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECCIÓN 7: PARTICIPA (FORMULARIO EDUCATIVO LOCAL)
+       ========================================================================== -->
+  <section id="participa" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">7. Participa</span>
+        <h2 class="section-title heading-serif">Tu memoria también forma parte de la historia</h2>
+        <p class="section-subtitle">Construcción colaborativa de la memoria colectiva</p>
+        <p class="section-desc">
+          La memoria familiar se conserva cuando las personas comparten sus experiencias y escuchan las de los demás. Te
+          invitamos a reflexionar sobre tu propia historia y a reconocer los conocimientos culturales que existen en tu
+          hogar.
+        </p>
+      </div>
+
+      <div class="participa-container">
+        <!-- Formulario -->
+        <div class="form-wrapper">
+          <h3 style="font-size: 1.3rem; font-weight: 700; margin-bottom: 12px; color: var(--text-main);">
+            Formulario de Memoria Familiar
+          </h3>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 20px;">
+            Las respuestas se procesan de manera estrictamente local en tu navegador con fines educativos.
+          </p>
+
+          <div id="formFeedbackAlert"
+            style="display: none; padding: 12px 16px; border-radius: var(--radius-sm); margin-bottom: 20px; font-size: 0.9rem; border: 1px solid transparent;">
+          </div>
+
+          <form id="memoryForm">
+            <!-- 1. Raíces -->
+            <div class="form-group">
+              <label for="userRoots" class="form-label">1. ¿Qué lugar relacionas con las raíces de tu familia?</label>
+              <input type="text" id="userRoots" class="form-control"
+                placeholder="Ej. Matagalpa, Masaya, Bluefields, León..." required>
+            </div>
+
+            <!-- 2. Idiomas -->
+            <div class="form-group">
+              <label for="userLanguages" class="form-label">2. ¿Qué idioma o idiomas se hablan en tu hogar?</label>
+              <input type="text" id="userLanguages" class="form-control"
+                placeholder="Ej. Español, Kriol, Miskito, Inglés..." required>
+            </div>
+
+            <!-- 3. Tradiciones -->
+            <div class="form-group">
+              <label for="userTraditions" class="form-label">3. ¿Qué tradición familiar te gustaría conservar?</label>
+              <textarea id="userTraditions" class="form-control"
+                placeholder="Describe una costumbre, comida especial o celebración..." required></textarea>
+            </div>
+
+            <!-- 4. Migración -->
+            <div class="form-group">
+              <label for="userMigration" class="form-label">4. ¿Conoces alguna experiencia de migración o cambio de
+                residencia en tu familia?</label>
+              <textarea id="userMigration" class="form-control"
+                placeholder="Desplazamientos entre municipios, departamentos o hacia el exterior..."
+                required></textarea>
+            </div>
+
+            <!-- 5. Aprendizaje -->
+            <div class="form-group">
+              <label for="userLearned" class="form-label">5. ¿Qué has aprendido de una generación anterior?</label>
+              <textarea id="userLearned" class="form-control"
+                placeholder="Un valor, un oficio artesanal, un consejo de tus abuelos..." required></textarea>
+            </div>
+
+            <!-- 6. Respeto -->
+            <div class="form-group">
+              <label for="userRespect" class="form-label">6. ¿Qué significa para ti respetar otras culturas?</label>
+              <textarea id="userRespect" class="form-control"
+                placeholder="Tu reflexión sobre la convivencia pluricultural en Nicaragua..." required></textarea>
+            </div>
+
+            <!-- Aviso de privacidad transparente -->
+            <div class="privacy-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                style="color: var(--color-caribe); flex-shrink: 0;">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+              <div class="privacy-text">
+                <strong>Aviso de privacidad y uso educativo:</strong> Este formulario está pensado para una actividad
+                educativa. No envía respuestas a terceros ni publica información personal sin autorización. Si se
+                implementa almacenamiento, se realiza exclusivamente en tu navegador de forma local. No compartas datos
+                personales sensibles.
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+              <button type="submit" class="btn btn-primary" style="flex: 1;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+                  <polyline points="17 21 17 13 7 13 7 21"></polyline>
+                  <polyline points="7 3 7 8 15 8"></polyline>
+                </svg>
+                Generar Ficha de Memoria
+              </button>
+              <button type="button" id="resetFormBtn" class="btn btn-outline">
+                Reiniciar
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Vista Previa de la Ficha Generada en Vivo -->
+        <div class="preview-card-wrapper" id="memoryCardPreview">
+          <div class="preview-badge-header">
+            <div>
+              <span
+                style="font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: var(--color-primary); letter-spacing: 0.05em;">Ficha
+                Digital</span>
+              <div class="preview-title">Tu Ficha de Memoria Familiar</div>
+            </div>
+            <div
+              style="width: 32px; height: 32px; border-radius: 8px; background: var(--color-primary-light); color: var(--color-primary); display: flex; align-items: center; justify-content: center; font-weight: 800;">
+              UNI
+            </div>
+          </div>
+
+          <div class="preview-content">
+            <div>
+              <div class="preview-item-title">Raíces territoriales:</div>
+              <div id="preview_userRoots" class="preview-item-val">—</div>
+            </div>
+
+            <div>
+              <div class="preview-item-title">Idiomas en el hogar:</div>
+              <div id="preview_userLanguages" class="preview-item-val">—</div>
+            </div>
+
+            <div>
+              <div class="preview-item-title">Tradición a conservar:</div>
+              <div id="preview_userTraditions" class="preview-item-val">—</div>
+            </div>
+
+            <div>
+              <div class="preview-item-title">Experiencia de migración / cambio:</div>
+              <div id="preview_userMigration" class="preview-item-val">—</div>
+            </div>
+
+            <div>
+              <div class="preview-item-title">Aprendizaje intergeneracional:</div>
+              <div id="preview_userLearned" class="preview-item-val">—</div>
+            </div>
+
+            <div>
+              <div class="preview-item-title">Significado del respeto intercultural:</div>
+              <div id="preview_userRespect" class="preview-item-val">—</div>
+            </div>
+          </div>
+
+          <div class="preview-actions">
+            <button id="printCardBtn" class="btn btn-primary" style="padding: 8px 16px; font-size: 0.85rem; flex: 1;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <rect x="6" y="14" width="12" height="8"></rect>
+              </svg>
+              Imprimir Ficha
+            </button>
+            <button id="copyCardBtn" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.85rem;">
+              Copiar texto
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECCIÓN 8: CONCLUSIÓN
+       ========================================================================== -->
+  <section id="conclusion" class="section section-alt">
+    <div class="container">
+      <div class="conclusion-box">
+        <div
+          style="display: inline-flex; align-items: center; justify-content: center; width: 60px; height: 60px; border-radius: 50%; background: var(--color-primary-light); color: var(--color-primary); margin-bottom: 20px;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+            </path>
+          </svg>
+        </div>
+
+        <span class="section-badge">8. Conclusión</span>
+        <h2 class="section-title heading-serif" style="margin-bottom: 24px;">Las diferencias también nos conectan</h2>
+
+        <div class="conclusion-quote">
+          “Nuestras raíces nos cuentan de dónde venimos; el respeto y el diálogo nos ayudan a construir juntos el
+          futuro.”
+        </div>
+
+        <div class="conclusion-text">
+          <p>
+            Las cuatro historias familiares muestran que la identidad se construye a través de generaciones, lugares,
+            lenguas, ocupaciones y experiencias diferentes.
+          </p>
+          <p style="margin-top: 14px;">
+            Los genogramas nos ayudan a observar esas trayectorias y a reconocer tanto las coincidencias como las
+            particularidades de cada familia. También nos recuerdan que la información disponible puede ser incompleta y
+            que reconstruir la memoria requiere escuchar, preguntar y verificar.
+          </p>
+          <p style="margin-top: 14px; font-weight: 600; color: var(--text-main);">
+            La interculturalidad comienza cuando comprendemos que ninguna historia familiar representa por sí sola a
+            toda una sociedad. Reconocer la diversidad cultural de Nicaragua implica respetar las identidades, valorar
+            las lenguas, aprender de otras experiencias y construir espacios de convivencia sin discriminación.
+          </p>
+        </div>
+
+        <a href="#inicio" class="btn btn-primary">Volver al inicio del proyecto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECCIÓN 9: FUENTES Y CRÉDITOS
+       ========================================================================== -->
+  <section id="fuentes" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Fuentes y Créditos</span>
+        <h2 class="section-title heading-serif">Rigor académico y autoría del proyecto</h2>
+        <p class="section-subtitle">Documentación primaria, marco institucional y ética académica</p>
+      </div>
+
+
+
+
+      <!-- Declaración Ética de Uso de Inteligencia Artificial -->
+      <div class="ai-disclosure-box">
+        <div class="ai-disclosure-title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+            <line x1="8" y1="21" x2="16" y2="21"></line>
+            <line x1="12" y1="17" x2="12" y2="21"></line>
+          </svg>
+          Declaración sobre el uso de Inteligencia Artificial
+        </div>
+        <div class="ai-disclosure-text">
+          Se utilizó inteligencia artificial como apoyo para organizar y redactar los textos del sitio web. La
+          información familiar debe contrastarse con las fichas originales y validarse por los integrantes del equipo.
+          El uso de esta herramienta no sustituye la verificación de los datos ni la responsabilidad académica de los
+          autores.
+        </div>
+      </div>
+
+      <!-- Tarjeta de Créditos del Equipo UNI -->
+      <div class="team-credits-card">
+        <h3
+          style="font-size: 1.35rem; font-weight: 800; color: var(--text-main); margin-bottom: 6px; text-align: center;">
+          Créditos del Equipo de Trabajo
+        </h3>
+        <p
+          style="font-size: 0.9rem; color: var(--text-muted); text-align: center; max-width: 650px; margin: 0 auto 20px;">
+          Universidad Nacional de Ingeniería (UNI) · Componente de Interculturalidad
+        </p>
+
+        <div class="team-grid">
+          <div class="team-slot">
+            <div class="team-role">Estudiante / Autor</div>
+            <div class="team-name">Jared Emanuel Centeno Jarquín</div>
+            <div style="font-size: 0.78rem; color: var(--text-light); margin-top: 4px;">Ficha etnográfica e
+              investigación</div>
+          </div>
+
+          <div class="team-slot">
+            <div class="team-role">Estudiante / Autor</div>
+            <div class="team-name">Hamilton Daniel Maradiaga Flores</div>
+            <div style="font-size: 0.78rem; color: var(--text-light); margin-top: 4px;">Ficha etnográfica e
+              investigación</div>
+          </div>
+
+          <div class="team-slot">
+            <div class="team-role">Estudiante / Autor</div>
+            <div class="team-name">Alfredo Gilberto Martínez Meza</div>
+            <div style="font-size: 0.78rem; color: var(--text-light); margin-top: 4px;">Ficha etnográfica e
+              investigación</div>
+          </div>
+
+          <div class="team-slot">
+            <div class="team-role">Estudiante / Autor</div>
+            <div class="team-name">Jeremy Antonio Del Castillo Cajina</div>
+            <div style="font-size: 0.78rem; color: var(--text-light); margin-top: 4px;">Ficha etnográfica e
+              investigación</div>
+          </div>
+        </div>
+
+        <div
+          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border-subtle); text-align: center;">
+          <div>
+            <span
+              style="font-size: 0.76rem; font-weight: 700; text-transform: uppercase; color: var(--text-light);">Asignatura:</span>
+            <div style="font-weight: 700; color: var(--text-main);">Componente de Interculturalidad</div>
+          </div>
+          <div>
+            <span
+              style="font-size: 0.76rem; font-weight: 700; text-transform: uppercase; color: var(--text-light);">Docente
+              / Facilitadora:</span>
+            <div style="font-weight: 700; color: var(--color-primary-dark);">Clara Wildford</div>
+          </div>
+          <div>
+            <span
+              style="font-size: 0.76rem; font-weight: 700; text-transform: uppercase; color: var(--text-light);">Fecha
+              de elaboración:</span>
+            <div style="font-weight: 700; color: var(--text-main);">Octubre 2026 / Semestre Académico</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       MODAL DE VISTA DETALLADA DE GENOGRAMA
+       ========================================================================== -->
+  <div id="genogramModal" class="modal-backdrop" onclick="if(event.target === this) closeGenogramModal();">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="modalGenogramTitle" style="font-size: 1.25rem; font-weight: 700;">Detalle de Genograma</h3>
+        <button class="modal-close-btn" onclick="closeGenogramModal()"
+          aria-label="Cerrar ventana emergente">&times;</button>
+      </div>
+      <div id="modalGenogramContent" class="modal-body">
+        <!-- Contenido inyectado dinámicamente -->
+      </div>
+      <div
+        style="padding: 16px 28px; border-top: 1px solid var(--border-color); display: flex; justify-content: flex-end;">
+        <button class="btn btn-outline" onclick="closeGenogramModal()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botón Flotante para Volver Arriba -->
+  <button id="backToTopBtn" class="back-to-top-btn" title="Volver al inicio de la página"
+    style="position: fixed; bottom: 24px; right: 24px; z-index: 990; opacity: 0; pointer-events: none; transition: opacity 0.3s ease;">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- ==========================================================================
+       PIE DE PÁGINA (FOOTER)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-title">MEMORIAS QUE NOS UNEN</div>
+          <div class="footer-brand-sub">Familias, migración y diversidad cultural de Nicaragua</div>
+          <div style="font-size: 0.8rem; color: #94a3b8; margin-top: 6px;">
+            Universidad Nacional de Ingeniería (UNI) · Managua, Nicaragua
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+          <a href="#inicio" style="color: #cbd5e1; font-size: 0.84rem;">Inicio</a>
+          <a href="#memoria-familiar" style="color: #cbd5e1; font-size: 0.84rem;">Familias</a>
+          <a href="#migracion" style="color: #cbd5e1; font-size: 0.84rem;">Mapa</a>
+          <a href="#tradiciones" style="color: #cbd5e1; font-size: 0.84rem;">Tradiciones</a>
+          <a href="#diversidad-cultural" style="color: #cbd5e1; font-size: 0.84rem;">Diversidad</a>
+          <a href="#patrones" style="color: #cbd5e1; font-size: 0.84rem;">Patrones</a>
+          <a href="#participa" style="color: #cbd5e1; font-size: 0.84rem;">Participa</a>
+          <a href="#fuentes" style="color: #cbd5e1; font-size: 0.84rem;">Créditos</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Proyecto Académico de Interculturalidad · Universidad Nacional de Ingeniería (UNI). Producto educativo
+          de libre consulta local.
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
